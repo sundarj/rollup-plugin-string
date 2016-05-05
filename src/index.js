@@ -12,7 +12,7 @@ export default function string (opts = {}) {
 			}
 
 			return {
-				code: 'export default ' + JSON.stringify(code) + ';',
+				code: `export default ${'`' + code + '`'}`,
 				map: { mappings: '' }
 			};
 		}
