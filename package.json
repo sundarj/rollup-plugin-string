@@ -18,7 +18,8 @@
     "build": "rollup -c",
     "pretest": "npm run build",
     "test": "ava",
-    "prepublish": "npm test"
+    "prepublish": "npm test",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
