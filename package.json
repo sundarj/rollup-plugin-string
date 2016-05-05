@@ -18,8 +18,7 @@
     "build": "rollup -c rollup.config.js",
     "pretest": "npm run build",
     "test": "ava",
-    "prepublish": "npm test",
-    "postinstall": "npm run build"
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
